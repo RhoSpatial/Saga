@@ -23,3 +23,6 @@ https://capsule-render.vercel.app/api?
 
 
 sdfghjk**fgef**
+| Date | Who | What |
+| - | - | - |
+| 2022-06-01 | I did it | 1. Change handling of url pattern to add numbers <br> 2. Added script to GitHub.|
