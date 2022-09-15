@@ -2,7 +2,7 @@
 
 [Code and more](https://docs.google.com/document/d/1GPtPFcteq4Acpxi92wx8Xh0RLyAXM6RzKxIIifj8RAo/edit?usp=sharing)
 
-h1{Import:}
+Import: &fontSize=100}
 
 - Geoprocessing-->File -->Satellite Imagery -->Import .... scene
 Extend (clip to shapes or grid system extent) 
