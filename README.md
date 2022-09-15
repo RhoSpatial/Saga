@@ -5,7 +5,7 @@
 ## Import:
 
 - Geoprocessing-->File -->Satellite Imagery -->Import .... scene
-Case for Landsat(no calibration required):
+<br/>Case for Landsat(no calibration required):
 If Radiometric calibration(radiance) is applied to level 1(L1) data then Output Data Type should be "floating point numbers")
 
 <img src="https://user-images.githubusercontent.com/111765142/188313379-32e0162b-dac1-4631-84e4-92fabbbfe35b.png" width="550" >
