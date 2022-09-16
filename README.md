@@ -2,6 +2,14 @@
 ![header](https://capsule-render.vercel.app/api?text=Hello%World!)
 [some link](https://docs.google.com/document/d/1GPtPFcteq4Acpxi92wx8Xh0RLyAXM6RzKxIIifj8RAo/edit?usp=sharing)
 
+## Imagery:
+
+Input imagery consists of cloud free scenes before and after event. 
+<br/>Some links:
+[EarthExplorer_NASA](https://earthexplorer.usgs.gov/)
+[Copernicus_ESA](https://scihub.copernicus.eu/dhus/#/home)
+[WorldView](https://worldview.earthdata.nasa.gov/?v=-41.77842088367239,17.969859441159233,26.980443247397467,53.613930015916836&l=Coastlines_15m,VIIRS_SNPP_CorrectedReflectance_BandsM11-I2-I1&lg=false&t=2019-02-12-T00%3A00%3A00Z)
+
 ## Import:
 
 - Geoprocessing-->File -->Satellite Imagery -->Import .... scene
