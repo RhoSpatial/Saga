@@ -25,6 +25,10 @@ Input imagery(Level.1 or Level.2) consists of cloud free scenes before and after
 
 
 # How to Use
+
+![image](https://user-images.githubusercontent.com/111765142/190589287-b2615f72-79f4-4a8e-9c53-48b5f5cac0b0.png)
+
+
 ```
 https://capsule-render.vercel.app/api?
 ```
