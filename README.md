@@ -19,10 +19,10 @@ Input imagery consists of cloud free scenes before and after event.
 
 <img src="https://user-images.githubusercontent.com/111765142/188313379-32e0162b-dac1-4631-84e4-92fabbbfe35b.png" width="520" >
 
-<sub/>Preprocessing is not required, there is an option where Landsat L1 products can be processed to 
+Preprocessing is not required, there is an option where Landsat L1 products can be processed to 
 <br/>Top of atmosphere Reflectance with options to apply different DOS(Dark Object Substraction) 
 <br>methods to get parallel product to surface reflactance    
-- Geoprocessing-->File -->Imagery --> Landsat -->Top of Atmosphere Reflectance
+<sub/>- Geoprocessing-->File -->Imagery --> Landsat -->Top of Atmosphere Reflectance
 
 
 # How to Use
