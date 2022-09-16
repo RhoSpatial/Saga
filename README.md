@@ -16,7 +16,7 @@ Input imagery(Level.1 or Level.2) consists of cloud free scenes before and after
 <sub/><br/>Tool for Landsat(no calibration required), but if Radiometric calibration(radiance) is applied to level 1 data(L1) then 
 <br/>Output Data Type should be "floating point numbers")
 
-<img src="https://user-images.githubusercontent.com/111765142/188313379-32e0162b-dac1-4631-84e4-92fabbbfe35b.png" width="480" >
+<img src="https://user-images.githubusercontent.com/111765142/188313379-32e0162b-dac1-4631-84e4-92fabbbfe35b.png" width="400" >
 
 <sub/>Preprocessing is not required, there is an option where Landsat L1 products can be processed to 
 <br/>Top of atmosphere Reflectance with options to apply different DOS(Dark Object Substraction) 
@@ -27,7 +27,7 @@ Input imagery(Level.1 or Level.2) consists of cloud free scenes before and after
 # How to Use
 Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS for GUI:
 
-<img src="https://user-images.githubusercontent.com/111765142/190589287-b2615f72-79f4-4a8e-9c53-48b5f5cac0b0.png" width="560">
+<img src="https://user-images.githubusercontent.com/111765142/190589287-b2615f72-79f4-4a8e-9c53-48b5f5cac0b0.png" width="500">
 
 
 ```
