@@ -13,7 +13,7 @@ Input imagery consists of cloud free scenes before and after event.
 ## Import:
 
 - Geoprocessing-->File -->Satellite Imagery -->Import .... scene
-<br/>Case for Landsat(no calibration required):
+<sub/><br/>Case for Landsat(no calibration required):
 <br/>If Radiometric calibration(radiance) is applied to level 1 data(L1) then 
 <br/>Output Data Type should be "floating point numbers")
 
