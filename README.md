@@ -4,7 +4,7 @@
 
 ## Imagery:
 
-Input imagery consists of cloud free scenes before and after event. 
+Input imagery(Level.1 or Level.2) consists of cloud free scenes before and after event.  
 <br/><sub/>Some links:
 -[EarthExplorer_NASA](https://earthexplorer.usgs.gov/)
 -[Copernicus_ESA](https://scihub.copernicus.eu/dhus/#/home)
@@ -13,13 +13,12 @@ Input imagery consists of cloud free scenes before and after event.
 ## Import:
 
 - Geoprocessing-->File -->Satellite Imagery -->Import .... scene
-<sub/><br/>Case for Landsat(no calibration required):
-<br/>If Radiometric calibration(radiance) is applied to level 1 data(L1) then 
+<sub/><br/>Tool for Landsat(no calibration required), but if Radiometric calibration(radiance) is applied to level 1 data(L1) then 
 <br/>Output Data Type should be "floating point numbers")
 
-<img src="https://user-images.githubusercontent.com/111765142/188313379-32e0162b-dac1-4631-84e4-92fabbbfe35b.png" width="520" >
+<img src="https://user-images.githubusercontent.com/111765142/188313379-32e0162b-dac1-4631-84e4-92fabbbfe35b.png" width="480" >
 
-Preprocessing is not required, there is an option where Landsat L1 products can be processed to 
+<sub/>Preprocessing is not required, there is an option where Landsat L1 products can be processed to 
 <br/>Top of atmosphere Reflectance with options to apply different DOS(Dark Object Substraction) 
 <br>methods to get parallel product to surface reflactance    
 <sub/>- Geoprocessing-->File -->Imagery --> Landsat -->Top of Atmosphere Reflectance
