@@ -30,7 +30,7 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 <br>methods to get parallel product to surface reflactance    
 <sub/>- Geoprocessing-->File -->Imagery --> Landsat -->Top of Atmosphere Reflectance
 
-## Toolchain ### inputs outputs
+## Toolchain 
 ### Inputs
 <sub/><br/>1 pre fire bands
 <br/>2 post fire bands
@@ -39,7 +39,13 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 <br/>4 Thresholds(=th) for dNBR vectorization
 
 <img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="340">
-
+### Outputs
+Indices(pre;post) collection____....pre post (dNBR and dNDVI and QA_pixel)_4 or 6 grids
+dNBR
+dNBR USGS_classes
+dNBR_classes_user_def dNBR_thx
+RBR____....optional
+dNDVI
 
 ```
 https://capsule-render.vercel.app/api?
