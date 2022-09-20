@@ -1,5 +1,5 @@
 # Saga-gis toolchain for burned area mapping
-![header](https://user-images.githubusercontent.com/111765142/191145104-af857c75-9913-4db8-84eb-9211f6371eb5.png =x240)
+![header](https://user-images.githubusercontent.com/111765142/191145104-af857c75-9913-4db8-84eb-9211f6371eb5.png =240x)
 Burned area (Kras, Slovenia, Italy)
 
 [some link](https://docs.google.com/document/d/1GPtPFcteq4Acpxi92wx8Xh0RLyAXM6RzKxIIifj8RAo/edit?usp=sharing)
