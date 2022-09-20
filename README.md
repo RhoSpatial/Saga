@@ -1,5 +1,5 @@
 # Saga-gis toolchain for burned area mapping
-![header](https://user-images.githubusercontent.com/111765142/191145104-af857c75-9913-4db8-84eb-9211f6371eb5.png)
+![header]<img src=https://user-images.githubusercontent.com/111765142/191145104-af857c75-9913-4db8-84eb-9211f6371eb5.png height=180>
 Burned area (Kras, Slovenia, Italy)
 
 [some link](https://docs.google.com/document/d/1GPtPFcteq4Acpxi92wx8Xh0RLyAXM6RzKxIIifj8RAo/edit?usp=sharing)
@@ -15,7 +15,7 @@ Input imagery are cloud free scenes before and after event. Level 1 or Level 2 d
 ## Importing toolchain into SAGA GIS
 Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS for GUI:
 
-<img src="https://user-images.githubusercontent.com/111765142/190589287-b2615f72-79f4-4a8e-9c53-48b5f5cac0b0.png" width="500">
+<img src="https://user-images.githubusercontent.com/111765142/190589287-b2615f72-79f4-4a8e-9c53-48b5f5cac0b0.png" width="420">
 
 ### Importing imagery into SAGA GIS:
 
@@ -23,7 +23,7 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 <sub/><br/>Tool for Landsat(no calibration required), but if Radiometric calibration(radiance) is applied to level 1 data(L1) then 
 <br/>Output Data Type should be "floating point numbers")
 
-<img src="https://user-images.githubusercontent.com/111765142/188313379-32e0162b-dac1-4631-84e4-92fabbbfe35b.png" width="400" >
+<img src="https://user-images.githubusercontent.com/111765142/188313379-32e0162b-dac1-4631-84e4-92fabbbfe35b.png" width="380" >
 
 <sub/>Preprocessing is not required, there is an option where Landsat L1 products can be processed to 
 <br/>Top of atmosphere Reflectance with options to apply different DOS(Dark Object Substraction) 
@@ -39,7 +39,7 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 <br/>3 output file name preappendix and postappendix
 <br/>4 Thresholds(=th) for dNBR vectorization
 
-<img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="240">
+<img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="340">
 
 
 ```
