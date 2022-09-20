@@ -39,7 +39,7 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 <br/>3 output file name preappendix and postappendix
 <br/>4 Thresholds(=th) for dNBR vectorization
 
-![dNBRtoolGUI]("https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="140")
+<img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="140")
 
 
 ```
