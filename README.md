@@ -1,4 +1,4 @@
-# Saga
+# Saga-gis toolchain for burned area mapping
 ![header](https://user-images.githubusercontent.com/111765142/191145104-af857c75-9913-4db8-84eb-9211f6371eb5.png)
 Burned area (Kras, Slovenia, Italy)
 
@@ -6,18 +6,18 @@ Burned area (Kras, Slovenia, Italy)
 
 ## Imagery:
 
-Input imagery(Level.1 or Level.2) consists of cloud free scenes before and after event.  
+Input imagery are cloud free scenes before and after event. Level 1 or Level 2 data can be used.  
 <br/><sub/>Some links:
 -[EarthExplorer_NASA](https://earthexplorer.usgs.gov/)
 -[Copernicus_ESA](https://scihub.copernicus.eu/dhus/#/home)
 -[WorldView](https://worldview.earthdata.nasa.gov/?v=-41.77842088367239,17.969859441159233,26.980443247397467,53.613930015916836&l=Coastlines_15m,VIIRS_SNPP_CorrectedReflectance_BandsM11-I2-I1&lg=false&t=2019-02-12-T00%3A00%3A00Z)
 
-# How to Use
+## Importing toolchain into SAGA GIS
 Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS for GUI:
 
 <img src="https://user-images.githubusercontent.com/111765142/190589287-b2615f72-79f4-4a8e-9c53-48b5f5cac0b0.png" width="500">
 
-### Import into SAGA GIS:
+### Importing imagery into SAGA GIS:
 
 - Geoprocessing-->File -->Satellite Imagery -->Import .... scene
 <sub/><br/>Tool for Landsat(no calibration required), but if Radiometric calibration(radiance) is applied to level 1 data(L1) then 
@@ -30,7 +30,7 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 <br>methods to get parallel product to surface reflactance    
 <sub/>- Geoprocessing-->File -->Imagery --> Landsat -->Top of Atmosphere Reflectance
 
-## Toolchain ###inputs outputs
+## Toolchain ### inputs outputs
 ### Inputs
 <sub/><br/>1 pre fire bands
 <br/>2 post fire bands
@@ -39,7 +39,7 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 <br/>3 output file name preappendix and postappendix
 <br/>4 Thresholds(=th) for dNBR vectorization
 
-![dNBRtoolGUI](https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png hight="140")
+![dNBRtoolGUI](https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png height="140")
 
 
 ```
