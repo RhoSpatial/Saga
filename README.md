@@ -39,13 +39,14 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 <br/>4 Thresholds(=th) for dNBR vectorization
 
 <img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="340">
+
 ### Outputs
-Indices(pre;post) collection____....pre post (dNBR and dNDVI and QA_pixel)_4 or 6 grids
-dNBR
-dNBR USGS_classes
-dNBR_classes_user_def dNBR_thx
-RBR____....optional
-dNDVI
+<br/>Indices(pre;post) collection____....pre post (NBR and NDVI and QA_pixel)_4 or 6 grids
+<br/>dNBR
+<br/>dNBR USGS_classes
+<br/>dNBR_classes_user_def dNBR_thx
+<br/>RBR____....optional
+<br/>dNDVI
 
 ```
 https://capsule-render.vercel.app/api?
