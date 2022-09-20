@@ -1,5 +1,5 @@
 # Saga-gis toolchain for burned area mapping
-![header]<img src=https://user-images.githubusercontent.com/111765142/191145104-af857c75-9913-4db8-84eb-9211f6371eb5.png height=180>
+![header](<img src=https://user-images.githubusercontent.com/111765142/191145104-af857c75-9913-4db8-84eb-9211f6371eb5.png height=200>)
 Burned area (Kras, Slovenia, Italy)
 
 [some link](https://docs.google.com/document/d/1GPtPFcteq4Acpxi92wx8Xh0RLyAXM6RzKxIIifj8RAo/edit?usp=sharing)
@@ -35,7 +35,6 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 <sub/><br/>1 pre fire bands
 <br/>2 post fire bands
 <br/>QA_PIXEL optional input for Landsat imagery
-
 <br/>3 output file name preappendix and postappendix
 <br/>4 Thresholds(=th) for dNBR vectorization
 
