@@ -30,7 +30,15 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 <br>methods to get parallel product to surface reflactance    
 <sub/>- Geoprocessing-->File -->Imagery --> Landsat -->Top of Atmosphere Reflectance
 
-# Tools inputs outputs
+## Toolchain ###inputs outputs
+### Inputs
+1 pre fire bands
+2 post fire bands
+QA_PIXEL optional input for Landsat imagery
+
+3 output file name preappendix and postappendix
+4 Thresholds(=th) for dNBR vectorization
+
 ![dNBRtoolGUI](https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png)
 
 
