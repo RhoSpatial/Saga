@@ -10,7 +10,7 @@ Input imagery are cloud free scenes before and after event. Level 1 or Level 2 d
 - [WorldView_NASA](https://worldview.earthdata.nasa.gov/?v=-41.77842088367239,17.969859441159233,26.980443247397467,53.613930015916836&l=Coastlines_15m,VIIRS_SNPP_CorrectedReflectance_BandsM11-I2-I1&lg=false&t=2019-02-12-T00%3A00%3A00Z)
 
 ## Importing toolchain into SAGA GIS
-Toolchain in .xml format can be downloaded *..selecting RAW and right click..Save as..*__[HERE]__(https://github.com/RhoSpatial/Saga-gis-toolchain-for-burned-area-mapping-/blob/main/SAGA-GIS-toolchain_Burned_area.xml) and then droped into SAGA GIS GUI for GUI:
+Toolchain in .xml format can be downloaded *..selecting RAW and right click..Save as..*__[HERE](https://github.com/RhoSpatial/Saga-gis-toolchain-for-burned-area-mapping-/blob/main/SAGA-GIS-toolchain_Burned_area.xml)__ and then droped into SAGA GIS GUI for GUI:
 
 <img src="https://user-images.githubusercontent.com/111765142/190589287-b2615f72-79f4-4a8e-9c53-48b5f5cac0b0.png" width="420">
 
@@ -46,7 +46,7 @@ All bands must be in same grid system; ex.: Downscaling SWIR_2 from 20m to 10m r
 
 <img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" width="420">
 
-### Outputs
+### Outputs <br/>
 - Indices(pre;post) collection...............pre post (NBR and NDVI and QA_pixel(optional)) 4 or(6) grids
 <br/>- dNBR(Normalized Burn Ratio)
 <br/>- dNBR USGS_classes
