@@ -32,10 +32,10 @@ Toolchain in .xml format can be downloaded **_..selecting Raw and right click..S
 All bands must be in same grid system; ex.: Downscaling SWIR_2 from 20m to 10m resolution
 - Geoprocessing-->Grid -->Grid System -->Resampling   
 <br>*Downscaling = Nearest Neighbour; User defined Cell Size = 10m; default(SWIR_2) coordinates; Fit = nodes*</br>
-- clipping all bands to prebound study area 
+- clipping all bands to prebound area 
  
 <br>**1** - pre fire bands (red, NIR, SWIR_2)
-<br/><sup>Optional(pre)  QA_PIXEL input for Landsat imagery</sup>
+<br/><sub>Optional(pre)  QA_PIXEL input for Landsat imagery</sub>
 <br/>
 <br/>**2** - post fire bands (red, NIR, SWIR_2)
 <br/><sub>Optional(post)  QA_PIXEL input for Landsat imagery</sub>
