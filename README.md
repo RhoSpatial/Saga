@@ -47,7 +47,7 @@ All bands must be in same grid system; ex.: Downscaling SWIR_2 from 20m to 10m r
 <img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" width="420">
 
 ### Outputs
-- Indices(pre;post) collection...............pre post (NBR and NDVI and QA_pixel(optional)) 4 or(6) grids
+- Indices(pre;post) collection...............pre post (NBR and NDVI and QA_pixel(optional)) 4 or(7) grids
 - dNBR(Normalized Burn Ratio)
 - dNBR USGS_classes
 - dNBR_classes_user_def dNBR_thx
@@ -70,7 +70,7 @@ QA_pixel export bands(3x) in **Indices(pre;post) collection**:(pre and post(rang
 | 2022-08-05 | LC08_L1TP_191028_20220805_20220805_02_RT |near Real Time |
 
 <p align='center'>Fell free :</p>
-
+*Feel free :*
 ```
  mih.zemva@gmail.com
 ```
