@@ -59,11 +59,7 @@ All bands must be in same grid system; for SWIR_2 with lower resolution
 
 QA_pixel export bands(3x) in Indices(pre;post) collection(pre and post(range 0;1), united(range 0;2), value=0=good pixel
 
-
-
-
-
-sdfghjk**fgef**
+### Landsat 8(OLI) Level 1 vs. Level 2  
 | Date | Imagery | What |
 | - | - | - |
 | 2022-07-04 | LC08_L1TP_191028_20220704_20220708_02_T1 | 1. Change handling of url pat|
@@ -75,6 +71,7 @@ sdfghjk**fgef**
 | 2022-08-05 | LC08_L2SP_191028_20220805_20220818_02_T1 | 1. Change ha|
 
 <p align='center'> Fell free </p>
+
 ```
 mih.zemva@gmail.com
 ```
