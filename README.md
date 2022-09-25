@@ -62,6 +62,8 @@ Indices(pre;post) collection.........pre post (NBR and NDVI and QA_pixel) 4 or 6
 
 QA_pixel export bands(3x) in Indices(pre;post) collection(pre and post(range 0;1), united(range 0;2), value=0=good pixel
 
+![image](https://user-images.githubusercontent.com/111765142/192162250-5a6fcfd2-ea0c-4f15-a483-73050f0d5067.png)
+
 ### Landsat 8(OLI) Level 1 vs. Level 2  
 | Date | Cloud free Imagery | level |
 | - | - | - |
