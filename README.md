@@ -70,7 +70,6 @@ QA_pixel export bands(3x) in **Indices(pre;post) collection**:(pre and post(rang
 | 2022-08-05 | LC08_L1TP_191028_20220805_20220805_02_RT |near Real Time |
 
 _Feel free :_
-<p align='center'>Fell free :</p>
 
 
 ```
