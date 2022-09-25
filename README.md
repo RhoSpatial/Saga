@@ -35,20 +35,22 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 1 pre fire bands (red, NIR, SWIR_2)
 <br/><sub>Optional(pre)  QA_PIXEL input for Landsat imagery</sub>
 <br/>2 post fire bands (red, NIR, SWIR_2)
-<br/>Optional(post)  QA_PIXEL input for Landsat imagery
+<br/><sub>Optional(post)  QA_PIXEL input for Landsat imagery</sub>
 <br/>3 output file name preappendix and postappendix
 <br/>4 Thresholds(=th) for dNBR classification and vectorization
 
 <img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="340">
 
 ### Outputs
-<br/>Indices(pre;post) collection____....pre post (NBR and NDVI and QA_pixel)_4 or 6 grids
+<br/>Indices(pre;post) collection____....pre post (NBR and NDVI and QA_pixel) 4 or 6 grids
 <br/>dNBR
 <br/>dNBR USGS_classes
 <br/>dNBR_classes_user_def dNBR_thx
-<br/>RBR____....optional
+<br/>RBR.......optional
 <br/>dNDVI
 <br/>Vectorized dNBR_th2
+
+QA_pixel export bands(pre and post(range 0;1), united(range 0;2), value=0=good pixel
 
 ```
 https://capsule-render.vercel.app/api?
