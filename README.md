@@ -69,8 +69,9 @@ QA_pixel export bands(3x) in **Indices(pre;post) collection**:(pre and post(rang
 | 2022-08-05 | LC08_L2SP_191028_20220805_20220818_02_T1 | L2 |
 | 2022-08-05 | LC08_L1TP_191028_20220805_20220805_02_RT |near Real Time |
 
-<p align='center'>Fell free :</p>
 _Feel free :_
+<p align='center'>Fell free :</p>
+
 
 ```
  mih.zemva@gmail.com
