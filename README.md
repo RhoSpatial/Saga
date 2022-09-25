@@ -20,7 +20,7 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 ### Importing imagery into SAGA GIS:
 
 - Geoprocessing-->File -->Satellite Imagery -->Import .... scene
-<sub/><br/>Tool for Landsat(no calibration required), but if Radiometric calibration(radiance) is applied to level 1 data(L1) then 
+<sub/><br/>Tool for Importing Landsat scene(no calibration required), but if Radiometric calibration(radiance) is applied to level 1 data(L1) then 
 <br/>Output Data Type should be "floating point numbers")
 
 <img src="https://user-images.githubusercontent.com/111765142/188313379-32e0162b-dac1-4631-84e4-92fabbbfe35b.png" width="380" >
@@ -49,20 +49,18 @@ All bands must be in same grid system; for SWIR_2 with lower resolution
 <img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="340">
 
 ### Outputs
-Indices(pre;post) collection.........pre post (NBR and NDVI and QA_pixel) 4 or 6 grids
+Indices(pre;post) collection...............pre post (NBR and NDVI and QA_pixel) 4 or 6 grids
 <br/>- dNBR
-<br/>- dNBR
-<br/>-
-
 <br/>- dNBR USGS_classes
-<br/>dNBR_classes_user_def dNBR_thx
-<br/>RBR.......optional
-<br/>dNDVI
-<br/>Vectorized dNBR_th2
+<br/>- dNBR_classes_user_def dNBR_thx
+<br/>- RBR.................................optional
+<br/>- dNDVI
+<br/>- Vectorized dNBR_th2
 
-QA_pixel export bands(3x) in Indices(pre;post) collection(pre and post(range 0;1), united(range 0;2), value=0=good pixel
+QA_pixel export bands(3x) in Indices(pre;post) collection:(pre and post(range 0;1), united(range 0;2), value=0=good pixel
 
 ![image](https://user-images.githubusercontent.com/111765142/192162376-22db7cd7-51fd-43c5-898f-e646cb807240.png)
+RGB ( NBRpost NBRpre NDVIpost )
 
 ### Landsat 8(OLI) Level 1 vs. Level 2  
 | Date | Cloud free Imagery | level |
@@ -71,7 +69,6 @@ QA_pixel export bands(3x) in Indices(pre;post) collection(pre and post(range 0;1
 | 2022-07-04 | LC08_L2SP_191028_20220704_20220708_02_T1 | L2 |
 | 2022-08-05 | LC08_L1TP_191028_20220805_20220818_02_T1 | L1 |
 | 2022-08-05 | LC08_L2SP_191028_20220805_20220818_02_T1 | L2 |
-| - | - | - |
 | 2022-08-05 | LC08_L1TP_191028_20220805_20220805_02_RT |near Real Time |
 
 <p align='center'>Fell free :
