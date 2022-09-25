@@ -49,7 +49,7 @@ All bands must be in same grid system; for SWIR_2 with lower resolution
 <img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="340">
 
 ### Outputs
-<br/>Indices(pre;post) collection____....pre post (NBR and NDVI and QA_pixel) 4 or 6 grids
+<br/>Indices(pre;post) collection.........pre post (NBR and NDVI and QA_pixel) 4 or 6 grids
 <br/>dNBR
 <br/>dNBR USGS_classes
 <br/>dNBR_classes_user_def dNBR_thx
@@ -57,16 +57,25 @@ All bands must be in same grid system; for SWIR_2 with lower resolution
 <br/>dNDVI
 <br/>Vectorized dNBR_th2
 
-QA_pixel export bands_3x Indices...collection(pre and post(range 0;1), united(range 0;2), value=0=good pixel
+QA_pixel export bands(3x) in Indices(pre;post) collection(pre and post(range 0;1), united(range 0;2), value=0=good pixel
 
-```
-https://capsule-render.vercel.app/api?
-```
 
-<p align='center'> Decorate GitHub Profile or any Repo like me! </p>
+
 
 
 sdfghjk**fgef**
-| Date | Who | What |
+| Date | Imagery | What |
 | - | - | - |
-| 2022-06-01 | I did it | 1. Change handling of url pattern to add numbers <br> 2. Added script to GitHub.|
+| 2022-07-04 | LC08_L1TP_191028_20220704_20220708_02_T1 | 1. Change handling of url pat|
+| - | - | - |
+| 2022-07-04 | LC08_L2SP_191028_20220704_20220708_02_T1 | 1. Change ha|
+| - | - | - |
+| 2022-08-05 | LC08_L1TP_191028_20220805_20220818_02_T1 | 1. Change handling of url pat|
+| - | - | - |
+| 2022-08-05 | LC08_L2SP_191028_20220805_20220818_02_T1 | 1. Change ha|
+
+<p align='center'> Fell free </p>
+```
+mih.zemva@gmail.com
+```
+
