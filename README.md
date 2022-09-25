@@ -38,7 +38,7 @@ All bands must be in same grid system; for SWIR_2 with lower resolution
  
 <br>1 pre fire bands (red, NIR, SWIR_2)
 <br/><sub>Optional(pre)  QA_PIXEL input for Landsat imagery</sub>
-<br/>
+<br/><sub></sub>
 <br/>2 post fire bands (red, NIR, SWIR_2)
 <br/><sub>Optional(post)  QA_PIXEL input for Landsat imagery</sub>
 <br/>
