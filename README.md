@@ -1,6 +1,6 @@
 # Saga-gis toolchain for burned area mapping
 ![header](https://user-images.githubusercontent.com/111765142/191145104-af857c75-9913-4db8-84eb-9211f6371eb5.png)
-Burned area (Kras, Slovenia, Italy; July 2022)
+Shape of burned area in July 2022 on Kras(Slovenia, Italy)
 
 [some link](https://docs.google.com/document/d/1GPtPFcteq4Acpxi92wx8Xh0RLyAXM6RzKxIIifj8RAo/edit?usp=sharing)
 
@@ -51,6 +51,9 @@ All bands must be in same grid system; for SWIR_2 with lower resolution
 ### Outputs
 Indices(pre;post) collection.........pre post (NBR and NDVI and QA_pixel) 4 or 6 grids
 <br/>- dNBR
+<br/>- dNBR
+<br/>-
+
 <br/>- dNBR USGS_classes
 <br/>dNBR_classes_user_def dNBR_thx
 <br/>RBR.......optional
@@ -63,18 +66,15 @@ QA_pixel export bands(3x) in Indices(pre;post) collection(pre and post(range 0;1
 | Date | Cloud free Imagery | level |
 | - | - | - |
 | 2022-07-04 | LC08_L1TP_191028_20220704_20220708_02_T1 | L1 |
-| - | - | - |
 | 2022-07-04 | LC08_L2SP_191028_20220704_20220708_02_T1 | L2 |
-| - | - | - |
 | 2022-08-05 | LC08_L1TP_191028_20220805_20220818_02_T1 | L1 |
+| 2022-08-05 | LC08_L2SP_191028_20220805_20220818_02_T1 | L2 |
 | - | - | - |
-| 2022-08-05 | LC08_L2SP_191028_20220805_20220818_02_T1 | L2|
-| - | - | - |
-| 2022-08-05 | LC08_L1TP_191028_20220805_20220805_02_RT | near Real Time |
+| 2022-08-05 | LC08_L1TP_191028_20220805_20220805_02_RT |near Real Time |
 
-<p align='center'>Fell free :</p>
+<p align='center'>Fell free :
 
 ```
-<p align='center'> mih.zemva@gmail.com </p>
+ mih.zemva@gmail.com
 ```
-
+</p>
