@@ -55,7 +55,7 @@ _Indices(pre;post) collection...............pre post (NBR and NDVI and QA_pixel(
 <br/>- dNDVI
 <br/>- Vectorized dNBR_th2
 
-QA_pixel export bands(3x) in Indices(pre;post) collection:(pre and post(range 0;1), united(range 0;2), value=0=good pixel
+QA_pixel export bands(3x) in **Indices(pre;post) collection**:(pre and post(range 0;1), united(range 0;2), value=0=good pixel
 
 ![image](https://user-images.githubusercontent.com/111765142/192162376-22db7cd7-51fd-43c5-898f-e646cb807240.png)
 <sub>RGB ( NBRpost, NBRpre, NDVIpost ) (c)NASA</sub>
