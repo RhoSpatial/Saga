@@ -1,6 +1,6 @@
 # Saga-gis toolchain for burned area mapping
 ![header](https://user-images.githubusercontent.com/111765142/191145104-af857c75-9913-4db8-84eb-9211f6371eb5.png)
-*Shape of burned area in July 2022 on Kras(Slovenia, Italy) on pre-fire natural RGB*
+*Shape of burned area in July 2022 on Kras (Slovenia, Italy) on pre-fire natural RGB*
 ### Imagery:
 
 Input imagery are cloud free scenes before and after event. Level 1 or Level 2 data can be used.  
@@ -48,14 +48,12 @@ All bands must be in same grid system; ex.: Downscaling SWIR_2 from 20m to 10m r
 
 ### Outputs
 - Indices(pre;post) collection...............pre post (NBR and NDVI and QA_pixel(optional)) 4 or(6) grids
-- <br/>- dNBR(Normalized Burn Ratio)
-- <br/>- dNBR USGS_classes
-<br/>- dNBR(Normalized Burn Ratio)
-<br/>- dNBR USGS_classes
-<br/>- dNBR_classes_user_def dNBR_thx
-<br/>- RBR.................................optional
-<br/>- dNDVI
-<br/>- Vectorized dNBR_th2
+- dNBR(Normalized Burn Ratio)
+- dNBR USGS_classes
+- dNBR_classes_user_def dNBR_thx
+- RBR.................................optional
+- dNDVI
+- Vectorized dNBR_th2
 
 QA_pixel export bands(3x) in **Indices(pre;post) collection**:(pre and post(range 0;1), united(range 0;2), value=0=good pixel
 
