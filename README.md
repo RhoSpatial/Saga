@@ -43,6 +43,7 @@ All bands must be in same grid system; for SWIR_2 with lower resolution
 <br/><sub>Optional(post)  QA_PIXEL input for Landsat imagery</sub>
 <br/>
 <br/>3 output file name preappendix and postappendix
+<br/>
 <br/>4 Thresholds(=th) for dNBR classification and vectorization
 
 <img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="340">
@@ -56,7 +57,7 @@ All bands must be in same grid system; for SWIR_2 with lower resolution
 <br/>dNDVI
 <br/>Vectorized dNBR_th2
 
-QA_pixel export bands(pre and post(range 0;1), united(range 0;2), value=0=good pixel
+QA_pixel export bands_3x Indices...collection(pre and post(range 0;1), united(range 0;2), value=0=good pixel
 
 ```
 https://capsule-render.vercel.app/api?
