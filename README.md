@@ -1,16 +1,14 @@
 # Saga-gis toolchain for burned area mapping
-![header](https://user-images.githubusercontent.com/111765142/191145104-af857c75-9913-4db8-84eb-9211f6371eb5.png)
+![header]<img src="https://user-images.githubusercontent.com/111765142/191145104-af857c75-9913-4db8-84eb-9211f6371eb5.png" height="260">
 Shape of burned area in July 2022 on Kras(Slovenia, Italy)
-
-[some link](https://docs.google.com/document/d/1GPtPFcteq4Acpxi92wx8Xh0RLyAXM6RzKxIIifj8RAo/edit?usp=sharing)
 
 ### Imagery:
 
 Input imagery are cloud free scenes before and after event. Level 1 or Level 2 data can be used.  
 <br/><sub/>Some links:
--[EarthExplorer_NASA](https://earthexplorer.usgs.gov/)
--[Copernicus_ESA](https://scihub.copernicus.eu/dhus/#/home)
--[WorldView](https://worldview.earthdata.nasa.gov/?v=-41.77842088367239,17.969859441159233,26.980443247397467,53.613930015916836&l=Coastlines_15m,VIIRS_SNPP_CorrectedReflectance_BandsM11-I2-I1&lg=false&t=2019-02-12-T00%3A00%3A00Z)
+- [EarthExplorer_NASA](https://earthexplorer.usgs.gov/)
+- [Copernicus_ESA](https://scihub.copernicus.eu/dhus/#/home)
+- [WorldView](https://worldview.earthdata.nasa.gov/?v=-41.77842088367239,17.969859441159233,26.980443247397467,53.613930015916836&l=Coastlines_15m,VIIRS_SNPP_CorrectedReflectance_BandsM11-I2-I1&lg=false&t=2019-02-12-T00%3A00%3A00Z)
 
 ## Importing toolchain into SAGA GIS
 Toolchain in .xml format can be downloaded ..select RAW and right click..Save as [here](https://github.com/RhoSpatial/Saga-gis-toolchain-for-burned-area-mapping-/blob/main/SAGA-GIS-toolchain_Burned_area.xml) and then droped into SAGA GIS GUI for GUI:
@@ -19,7 +17,7 @@ Toolchain in .xml format can be downloaded ..select RAW and right click..Save as
 
 ### Importing imagery into SAGA GIS:
 
-- Geoprocessing-->File -->Satellite Imagery -->Import .... scene
+- Geoprocessing-->File -->Satellite Imagery -->Import  ...  scene
 <sub/><br/>Tool for Importing Landsat scene(no calibration required), but if Radiometric calibration(radiance) is applied to level 1 data(L1) then 
 <br/>Output Data Type should be "floating point numbers")
 
@@ -32,7 +30,7 @@ Toolchain in .xml format can be downloaded ..select RAW and right click..Save as
 
 ## Toolchain for burned area mapping
 ### Inputs
-All bands must be in same grid system; for SWIR_2 with lower resolution
+All bands must be in same grid system; ex.: Downscaling SWIR_2 from 20m to 10m resolution
 - Geoprocessing-->Grid -->Grid System -->Resampling   /Downscaling=Nearest Neighbour; User defined Cell Size(of other bands); default coordinates; Fit nodes
 - clipping all bands to prebound study area 
  
@@ -49,7 +47,7 @@ All bands must be in same grid system; for SWIR_2 with lower resolution
 <img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="340">
 
 ### Outputs
- Indices(pre;post) collection...............pre post (NBR and NDVI and QA_pixel) 4 or 6 grids
+ - Indices(pre;post) collection...............pre post (NBR and NDVI and QA_pixel) 4 or 6 grids
 <br/>- dNBR(Normalized Burn Ratio)
 <br/>- dNBR USGS_classes
 <br/>- dNBR_classes_user_def dNBR_thx
@@ -60,7 +58,7 @@ All bands must be in same grid system; for SWIR_2 with lower resolution
 QA_pixel export bands(3x) in Indices(pre;post) collection:(pre and post(range 0;1), united(range 0;2), value=0=good pixel
 
 ![image](https://user-images.githubusercontent.com/111765142/192162376-22db7cd7-51fd-43c5-898f-e646cb807240.png)
-<sub>RGB ( NBRpost, NBRpre, NDVIpost )</sub>
+<sub>RGB ( NBRpost, NBRpre, NDVIpost ) (c)NASA</sub>
 
 ### Landsat 8(OLI) Level 1 vs. Level 2  
 | Date | Cloud free Imagery | level |
