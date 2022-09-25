@@ -31,7 +31,7 @@ Toolchain in .xml format can be downloaded ..select RAW and right click..Save as
 ### Inputs
 All bands must be in same grid system; ex.: Downscaling SWIR_2 from 20m to 10m resolution
 - Geoprocessing-->Grid -->Grid System -->Resampling   
-<br><sup>Downscaling=Nearest Neighbour; User defined Cell Size(10m); default coordinates; Fit nodes</sup></br>
+<br><sup>Downscaling = Nearest Neighbour; User defined Cell Size = 10m; default(SWIR_2) coordinates; Fit = nodes</sup></br>
 - clipping all bands to prebound study area 
  
 <br>1 pre fire bands (red, NIR, SWIR_2)
@@ -47,7 +47,7 @@ All bands must be in same grid system; ex.: Downscaling SWIR_2 from 20m to 10m r
 <img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" width="420">
 
 ### Outputs
-_Indices(pre;post) collection...............pre post (NBR and NDVI and QA_pixel(optional)) 4 or(6) grids
+-Indices(pre;post) collection...............pre post (NBR and NDVI and QA_pixel(optional)) 4 or(6) grids
 <br/>- dNBR(Normalized Burn Ratio)
 <br/>- dNBR USGS_classes
 <br/>- dNBR_classes_user_def dNBR_thx
