@@ -32,8 +32,8 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 
 ## Toolchain for burned area mapping
 ### Inputs
-<br/>1 pre fire bands (red, NIR, SWIR_2)
-<br/>Optional(pre)  QA_PIXEL input for Landsat imagery
+1 pre fire bands (red, NIR, SWIR_2)
+<br/><sub>Optional(pre)  QA_PIXEL input for Landsat imagery<sub/>
 <br/>2 post fire bands (red, NIR, SWIR_2)
 <br/>Optional(post)  QA_PIXEL input for Landsat imagery
 <br/>3 output file name preappendix and postappendix
