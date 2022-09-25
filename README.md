@@ -32,10 +32,15 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 
 ## Toolchain for burned area mapping
 ### Inputs
+All bands must be in same grid system; for SWIR_2 with lower resolution
+- Geoprocessing-->Grid -->Grid System -->Resampling   /Downscaling=Nearest Neighbour; User defined Cell Size(of other bands); default coordinates; Fit nodes
+- clipping all bands to prebound study area 
 1 pre fire bands (red, NIR, SWIR_2)
 <br/><sub>Optional(pre)  QA_PIXEL input for Landsat imagery</sub>
+<br/>
 <br/>2 post fire bands (red, NIR, SWIR_2)
 <br/><sub>Optional(post)  QA_PIXEL input for Landsat imagery</sub>
+<br/>
 <br/>3 output file name preappendix and postappendix
 <br/>4 Thresholds(=th) for dNBR classification and vectorization
 
