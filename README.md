@@ -30,25 +30,25 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 <br>methods to get parallel product to surface reflactance    
 <sub/>- Geoprocessing-->File -->Imagery --> Landsat -->Top of Atmosphere Reflectance
 
-## Toolchain 
+## Toolchain for burned area mapping
 ### Inputs
-<sub/><br/>1 pre fire bands (red, NIR, SWIR_2)
+<br/>1 pre fire bands (red, NIR, SWIR_2)
 <br/>Optional(pre)  QA_PIXEL input for Landsat imagery
 <br/>2 post fire bands (red, NIR, SWIR_2)
 <br/>Optional(post)  QA_PIXEL input for Landsat imagery
 <br/>3 output file name preappendix and postappendix
-<br/>4 Thresholds(=th) for dNBR vectorization
+<br/>4 Thresholds(=th) for dNBR classification and vectorization
 
 <img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="340">
 
 ### Outputs
-
 <br/>Indices(pre;post) collection____....pre post (NBR and NDVI and QA_pixel)_4 or 6 grids
 <br/>dNBR
 <br/>dNBR USGS_classes
 <br/>dNBR_classes_user_def dNBR_thx
 <br/>RBR____....optional
 <br/>dNDVI
+<br/>Vectorized dNBR_th2
 
 ```
 https://capsule-render.vercel.app/api?
