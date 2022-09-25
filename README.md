@@ -50,7 +50,7 @@ All bands must be in same grid system; for SWIR_2 with lower resolution
 
 ### Outputs
 Indices(pre;post) collection...............pre post (NBR and NDVI and QA_pixel) 4 or 6 grids
-<br/>- dNBR
+<br/>- dNBR(Normalized Burn Ratio)
 <br/>- dNBR USGS_classes
 <br/>- dNBR_classes_user_def dNBR_thx
 <br/>- RBR.................................optional
