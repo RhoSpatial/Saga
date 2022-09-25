@@ -32,15 +32,17 @@ Toolchain in .xml format can be downloaded [here] and then droped into SAGA GIS 
 
 ## Toolchain 
 ### Inputs
-<sub/><br/>1 pre fire bands
-<br/>2 post fire bands
-<br/>QA_PIXEL optional input for Landsat imagery
+<sub/><br/>1 pre fire bands (red, NIR, SWIR_2)
+<br/>Optional(pre)  QA_PIXEL input for Landsat imagery
+<br/>2 post fire bands (red, NIR, SWIR_2)
+<br/>Optional(post)  QA_PIXEL input for Landsat imagery
 <br/>3 output file name preappendix and postappendix
 <br/>4 Thresholds(=th) for dNBR vectorization
 
 <img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="340">
 
 ### Outputs
+
 <br/>Indices(pre;post) collection____....pre post (NBR and NDVI and QA_pixel)_4 or 6 grids
 <br/>dNBR
 <br/>dNBR USGS_classes
