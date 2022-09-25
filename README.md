@@ -4,7 +4,7 @@ Shape of burned area in July 2022 on Kras(Slovenia, Italy)
 
 [some link](https://docs.google.com/document/d/1GPtPFcteq4Acpxi92wx8Xh0RLyAXM6RzKxIIifj8RAo/edit?usp=sharing)
 
-## Imagery:
+### Imagery:
 
 Input imagery are cloud free scenes before and after event. Level 1 or Level 2 data can be used.  
 <br/><sub/>Some links:
@@ -49,7 +49,7 @@ All bands must be in same grid system; for SWIR_2 with lower resolution
 <img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="340">
 
 ### Outputs
-Indices(pre;post) collection...............pre post (NBR and NDVI and QA_pixel) 4 or 6 grids
+- Indices(pre;post) collection...............pre post (NBR and NDVI and QA_pixel) 4 or 6 grids
 <br/>- dNBR(Normalized Burn Ratio)
 <br/>- dNBR USGS_classes
 <br/>- dNBR_classes_user_def dNBR_thx
@@ -71,9 +71,9 @@ RGB ( NBRpost NBRpre NDVIpost )
 | 2022-08-05 | LC08_L2SP_191028_20220805_20220818_02_T1 | L2 |
 | 2022-08-05 | LC08_L1TP_191028_20220805_20220805_02_RT |near Real Time |
 
-<p align='center'>Fell free :
+<p align='center'>Fell free :</p>
 
 ```
  mih.zemva@gmail.com
 ```
-</p>
+
