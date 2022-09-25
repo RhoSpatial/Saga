@@ -1,5 +1,5 @@
 # Saga-gis toolchain for burned area mapping
-![header]<img src="https://user-images.githubusercontent.com/111765142/191145104-af857c75-9913-4db8-84eb-9211f6371eb5.png" height="260">
+![header]("https://user-images.githubusercontent.com/111765142/191145104-af857c75-9913-4db8-84eb-9211f6371eb5.png" height="260")
 Shape of burned area in July 2022 on Kras(Slovenia, Italy)
 
 ### Imagery:
@@ -31,7 +31,8 @@ Toolchain in .xml format can be downloaded ..select RAW and right click..Save as
 ## Toolchain for burned area mapping
 ### Inputs
 All bands must be in same grid system; ex.: Downscaling SWIR_2 from 20m to 10m resolution
-- Geoprocessing-->Grid -->Grid System -->Resampling   /Downscaling=Nearest Neighbour; User defined Cell Size(of other bands); default coordinates; Fit nodes
+- Geoprocessing-->Grid -->Grid System -->Resampling   
+<br/>/Downscaling=Nearest Neighbour; User defined Cell Size(of other bands); default coordinates; Fit nodes
 - clipping all bands to prebound study area 
  
 <br>1 pre fire bands (red, NIR, SWIR_2)
@@ -44,10 +45,10 @@ All bands must be in same grid system; ex.: Downscaling SWIR_2 from 20m to 10m r
 <br/>
 <br/>4 Thresholds(=th) for dNBR classification and vectorization
 
-<img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="340">
+<img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" height="380">
 
 ### Outputs
- - Indices(pre;post) collection...............pre post (NBR and NDVI and QA_pixel) 4 or 6 grids
+- Indices(pre;post) collection...............pre post (NBR and NDVI and QA_pixel) 4 or 6 grids
 <br/>- dNBR(Normalized Burn Ratio)
 <br/>- dNBR USGS_classes
 <br/>- dNBR_classes_user_def dNBR_thx
