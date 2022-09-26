@@ -27,7 +27,7 @@ Toolchain in .xml format can be downloaded from [SourceForge](https://sourceforg
 <br>methods to get parallel product to surface reflactance    
 <sub/>- Geoprocessing-->File -->Imagery --> Landsat -->Top of Atmosphere Reflectance
 
-## Toolchain for burned area mapping
+## Toolchain for Burned area mapping
 ### Inputs
 All bands must be in same grid system; ex.: Downscaling SWIR_2 from 20m to 10m resolution
 - Geoprocessing-->Grid -->Grid System -->Resampling   
