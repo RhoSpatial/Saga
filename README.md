@@ -70,6 +70,7 @@ QA_pixel export bands(3x) in **Indices(pre;post) collection**:(pre and post(rang
 | 2022-08-05 | LC08_L1TP_191028_20220805_20220805_02_RT |near Real Time |
 
 Still working on post analytics_ L1 vs L2(SR) and later maybe comparison with Sentinel 2 MSI imagery.
+The main purpose is assesment of severity and to get trustful shapefile of burned area that can be used for future monitoring(GEE). 
 
 _Feel free :_
 
