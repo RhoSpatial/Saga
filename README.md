@@ -4,7 +4,7 @@
 ### Imagery:
 
 Input imagery are cloud free scenes before and after event.Level 2 data(surface reflactance) is default input. Level 1 can also be used;
-</br/>the values of L1 are greather: cca:  L1 = 0.8 x L2sr; so classified grids from L1 data are not in range, but the dynamics are the same and sometimes L2sr
+<br/>the values of L1 are greather: cca:  L1 = 0.8 x L2sr; so classified grids from L1 data are not in range, but the dynamics are the same and sometimes L2sr
 are not available in short time after post event so we can use L1 data; adjusting th for vectorization(ex.: th_2= 0.088).  
 <br/><sub/>Some links:
 - [EarthExplorer_NASA](https://earthexplorer.usgs.gov/)
@@ -71,7 +71,9 @@ QA_pixel export bands(3x) in **Indices(pre;post) collection**:(pre and post(rang
 | 2022-08-05 | LC08_L2SP_191028_20220805_20220818_02_T1 | L2 |
 | 2022-08-05 | LC08_L1TP_191028_20220805_20220805_02_RT |near Real Time |
 
+
 ![image](https://user-images.githubusercontent.com/111765142/192889222-8ddfbcb3-fab4-4b8d-bb22-dddf5f84385e.png)
+
 
 The main purpose is assesment of severity and to get trustful shapefile of burned area that can be used for future monitoring(GEE). 
 
