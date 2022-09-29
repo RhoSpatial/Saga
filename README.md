@@ -77,7 +77,7 @@ QA_pixel export bands(3x) in **Indices(pre;post) collection**:(pre and post(rang
 ![IndicScatt](https://user-images.githubusercontent.com/111765142/193045250-79ffa037-7f27-4624-9ab0-ba84ed0b73ee.png)
 
 <br/>
-<br/>
+<br/>dNBR L1 and L2 are highly correlated; while dNBR and dNDVI less. NDVI uses bands nearer to VIS spectrum where there is more power.
 The main purpose is assesment of severity and to get trustful shapefile of burned area that can be used for future monitoring(GEE). 
 
 _Feel free :_
