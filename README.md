@@ -18,7 +18,7 @@ Toolchain in .xml format can be downloaded from [SourceForge](https://sourceforg
 ### Importing imagery into SAGA GIS:
 
 - Geoprocessing-->File -->Satellite Imagery -->Import  ...  scene
-<sub/><br/>Tool for Importing Landsat scene(no calibration required), but if Radiometric calibration(radiance) is applied to level 1 data(L1) then 
+<sub/><br/>Tool for Importing Landsat scene(no calibration required), but if Radiometric calibration(radiance)(not meant for this toolchain) is applied to level 1 data(L1) then 
 <br/>Output Data Type should be "floating point numbers")
 
 <img src="https://user-images.githubusercontent.com/111765142/188313379-32e0162b-dac1-4631-84e4-92fabbbfe35b.png" width="380" >
