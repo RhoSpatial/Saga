@@ -73,10 +73,11 @@ QA_pixel export bands(3x) in **Indices(pre;post) collection**:(pre and post(rang
 <br/>
 <br/>
 
-![image](https://user-images.githubusercontent.com/111765142/192889222-8ddfbcb3-fab4-4b8d-bb22-dddf5f84385e.png)
+
 ![IndicScatt](https://user-images.githubusercontent.com/111765142/193045250-79ffa037-7f27-4624-9ab0-ba84ed0b73ee.png)
 
-
+<br/>
+<br/>
 The main purpose is assesment of severity and to get trustful shapefile of burned area that can be used for future monitoring(GEE). 
 
 _Feel free :_
