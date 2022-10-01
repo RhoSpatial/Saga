@@ -4,7 +4,7 @@
 ### Imagery:
 
 Input imagery are cloud free scenes before and after event. Level 2 data(surface reflectance) is default input. Level 1 can also be used;
-<br/>the values of L1 are greather: cca:  L2sr= 0.8 x L1 and L1= 1.25 x L2sr; so classified grids from L1 data are not in range, but the dynamics are the same and sometimes L2sr are not available in short time after post event so we can use L1 data(also L1...RT); adjusting dNBR threshold for vectorization(ex.:L1 dNBR_th2= 0.137).  
+<br/>the values of L1 are greather: cca:  L2sr= 0.8 x L1 and L1= 1.25 x L2sr; so classified grids from L1 data are not in range, but the dynamics are the same and sometimes L2sr are not available in short time after post event so we can use L1 data(also L1...RT); adjusting dNBR threshold for vectorization(ex.:L1 dNBR_th2= 0.137). Using L1 data will not give accurate classes of dNBR; overridding exports with changed value of dNBR_th2 is recomended to retrive burned area shape.   
 <br/><sub/>Some links:
 - [EarthExplorer_NASA](https://earthexplorer.usgs.gov/)
 - [Copernicus_ESA](https://scihub.copernicus.eu/dhus/#/home)
