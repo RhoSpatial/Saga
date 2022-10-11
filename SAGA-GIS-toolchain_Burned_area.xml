@@ -20,7 +20,7 @@
 
                     ...deltaINDEX = INDEX_pre-fire - INDEX_post-fire
                     Relativized Burned Ratio:     
-                    ...RBR = dNBR / NBRpre + 1.001 (=RdNBR)                       
+                    ...RBR = dNBR / (NBRpre + 1.001) (=RdNBR)                       
                     
 dNBR is classified by thresholds(=th) proposed by USGS and user
 
@@ -386,7 +386,7 @@ Links :       https://www.researchgate.net/publication/228638145_Fire_intensity_
     </tool>
     <tool library="grid_calculus" tool="1" name="Grid Calculator">
       <output id="RESULT">RBR</output>
-      <option id="FORMULA">g1 / g2 + 1.001</option>
+      <option id="FORMULA">g1 / (g2 + 1.001)</option>
       <option id="NAME">$(preapp)_RBR_$(postappsat)_$(postapppostD)</option>
       <option id="FNAME">false</option>
       <option id="USE_NODATA">false</option>
