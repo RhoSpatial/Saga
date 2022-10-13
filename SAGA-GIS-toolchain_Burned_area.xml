@@ -20,7 +20,7 @@
 
                     ...deltaINDEX = INDEX_pre-fire - INDEX_post-fire
                     Relativized Burned Ratio:     
-                    ...RBR = dNBR / (NBRpre + 1.001) (=RdNBR)                       
+                    ...RBR = dNBR / (NBRpre + 1.001)                       
                     
 dNBR is classified by thresholds(=th) proposed by USGS and user
 
