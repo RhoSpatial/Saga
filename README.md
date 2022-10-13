@@ -44,7 +44,7 @@ All bands must be in same grid system; ex.: Downscaling SWIR_2 from 20m to 10m r
 <br/><sub>Optional(post)  QA_PIXEL input for Landsat imagery</sub>
 <br/>
 <br/>**3** - output file name preappendix and postappendix
-<br/>
+<br/><sub>Indices have postappendix of post fire date</sub>
 <br/>**4** - Thresholds(=th) for dNBR classification and vectorization
 
 <img src="https://user-images.githubusercontent.com/111765142/191151606-de44389a-774b-4b41-af65-bd9ccea70ae8.png" width="420">
