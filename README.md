@@ -79,9 +79,10 @@ QA_pixel export bands(3x) in **Indices(pre;post) collection**:(pre and post(rang
 
 ![IndicScatt](https://user-images.githubusercontent.com/111765142/193045250-79ffa037-7f27-4624-9ab0-ba84ed0b73ee.png)
 
-<br/>
-<br/>dNBR L1 and dNBR L2 are highly correlated; while dNBR and dNDVI less
-<br/>NDVI is calculated from bands nearer to VIS spectrum where the power is greater.
+##### `Scatterplots of clipped indices`
+
+<br/>dNBR L2 and dNBR L1 are highly correlated
+<br/>dNDVI L2 and dNBR L2 are less correlated (NDVI is calculated from bands nearer to VIS spectrum)
 <br/>
 <br/>The main purpose is assesment of severity and to get trustful shapefile of burned area that can be used for future monitoring(GEE). 
 <br/>
