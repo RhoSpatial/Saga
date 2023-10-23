@@ -7,10 +7,10 @@ Input imagery are cloud free scenes before and after event. Level 2 data(surface
 <br/>the values of L1 are greather: cca:  L2sr= 0.8 x L1 and L1= 1.25 x L2sr; so classified grids from L1 data are not in range, but the dynamics are the same and sometimes L2sr are not available in short time after post event so we can use L1 data(also L1...RT); adjusting dNBR threshold for vectorization(ex.:L1 dNBR_th2= 0.137). Using L1 data will not give accurate classes of dNBR; running tool with overridding exports with changed value of dNBR_th2 is recomended to retrive burned area shape.   
 <br/><sub/>Some links:
 
-- [Burned area mapping tutorial on YouTube](https://www.youtube.com/watch?v=pFY6vt35QRs)
 - [EarthExplorer_NASA](https://earthexplorer.usgs.gov/)
 - [Copernicus_ESA](https://scihub.copernicus.eu/dhus/#/home)
 - [WorldView_NASA](https://worldview.earthdata.nasa.gov/?v=-41.77842088367239,17.969859441159233,26.980443247397467,53.613930015916836&l=Coastlines_15m,VIIRS_SNPP_CorrectedReflectance_BandsM11-I2-I1&lg=false&t=2019-02-12-T00%3A00%3A00Z)
+- [Burned area mapping tutorial on YouTube](https://www.youtube.com/watch?v=pFY6vt35QRs)
 
 ## Importing toolchain into SAGA GIS
 Toolchain SAGA-GIS-toolchain_Burned_area.xml can be downloaded from [SourceForge](https://sourceforge.net/projects/saga-gis-rhotoolchains/files/) or **_..selecting Raw and right click..Save as...[Here](https://github.com/RhoSpatial/Saga-gis-toolchain-for-burned-area-mapping-/blob/main/SAGA-GIS-toolchain_Burned_area.xml) _** and then droped into SAGA GIS GUI for GUI:
@@ -33,8 +33,9 @@ Toolchain SAGA-GIS-toolchain_Burned_area.xml can be downloaded from [SourceForge
 ## Toolchain for Burned area mapping
 ### Inputs
 All bands must be in same grid system; ex.: Downscaling SWIR_2 from 20m to 10m resolution
-- Geoprocessing-->Grid -->Grid System -->Resampling   
-<br>*Downscaling = Nearest Neighbour; User defined Cell Size = 10m; default(SWIR_2) coordinates; Fit = nodes*</br>
+- Geoprocessing-->Grid -->Grid System -->Resampling   :
+ <br>*Downscaling = Nearest Neighbour; User defined Cell Size = 10m; default(SWIR_2) coordinates; Fit = nodes*
+</br>
 - clipping all bands to prebound area 
  
 <br>**1** - pre fire bands (red, NIR, SWIR_2)
