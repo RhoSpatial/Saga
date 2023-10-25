@@ -14,7 +14,7 @@ Input imagery are cloud free scenes before and after event. Level 2 data(surface
 - [SAGA GIS on SourceForge](https://sourceforge.net/projects/saga-gis/)
 
 ## Importing toolchain into SAGA GIS
-Toolchain SAGA-GIS-toolchain_Burned_area.xml can be downloaded from [SourceForge](https://sourceforge.net/projects/saga-gis-rhotoolchains/files/) or **_..selecting Raw and right click..Save as...[Here](https://github.com/RhoSpatial/Saga-gis-toolchain-for-burned-area-mapping-/blob/main/SAGA-GIS-toolchain_Burned_area.xml) _** and then droped into SAGA GIS GUI for GUI:
+Toolchain SAGA-GIS-toolchain_Burned_area.xml can be downloaded from [SourceForge](https://sourceforge.net/projects/saga-gis-rhotoolchains/files/) or copied at the end of this readme and then droped into SAGA GIS GUI for GUI:
 
 <img src="https://user-images.githubusercontent.com/111765142/190589287-b2615f72-79f4-4a8e-9c53-48b5f5cac0b0.png" width="420">
 
