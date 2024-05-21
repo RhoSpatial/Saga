@@ -1,4 +1,4 @@
-# Saga-gis toolchain for burned area mapping
+# Saga-GIS toolchain for burned area mapping
 ![header](https://user-images.githubusercontent.com/111765142/191145104-af857c75-9913-4db8-84eb-9211f6371eb5.png)
 *Shape of burned area in July 2022 on Kras (Slovenia, Italy) on pre-fire natural RGB*
 ### Imagery:
